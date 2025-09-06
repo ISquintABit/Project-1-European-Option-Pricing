@@ -1,9 +1,6 @@
 # Project-1-European-Option-Pricing
 European Option Pricing with Monte Carlo Simulation. Simulates 10,000 asset price trajectories using Geometric Brownian Motion, calculates call and put option payoffs, discounts them with the risk-free rate, and compares results with Black–Scholes. Includes trajectory plots for visualization.
 
-
-
-
 #10,000 Simulations of an Asset price using Monte Carlo
 import numpy as np 
 import matplotlib.pyplot as plt 
@@ -18,6 +15,8 @@ import matplotlib.pyplot as plt
 #N : int - number of steps
 #simulations : int - number of Monte Carlo simulations
 
+
+---
 def MonteCarlo(K,S0,mu,sigma,r,T,N,simulations):
     dt=T/N
     simulated_path=[]
